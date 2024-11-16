@@ -63,3 +63,5 @@ coverage.xml
 htmlcov/
 test_output/
 test_reports/
+alembic/
+.gitignore
