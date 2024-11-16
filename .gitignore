@@ -1,0 +1,65 @@
+# Ignore the virtual environment directories
+venv/
+.venv/
+
+# Ignore environment and configuration files
+.env
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore editor-specific configuration files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore pytest cache directory
+.pytest_cache/
+
+# Ignore local SQLite database files
+*.sqlite3
+*.db
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+*.whl
+pip-wheel-metadata/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore specific configuration files
+alembic.ini
+pytest.ini
+
+# Ignore sensitive secrets
+.env
+*.key
+*.pem
+
+# Ignore Alembic cache and compiled files
+alembic/versions/*.pyc
+alembic/versions/*__pycache__/
+
+# Ignore system-specific cache files
+.DS_Store
+Thumbs.db
+
+# Ignore HTTP test files (if you don't want to include them)
+*.http
+
+# Ignore coverage reports and test artifacts
+.coverage
+coverage.xml
+htmlcov/
+test_output/
+test_reports/
