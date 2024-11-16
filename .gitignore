@@ -1,10 +1,12 @@
-# Ignore the virtual environment directories
+# Ignore virtual environment directories
 venv/
 .venv/
 
 # Ignore environment and configuration files
 .env
 *.env
+*.key
+*.pem
 
 # Ignore Python cache files
 __pycache__/
@@ -21,7 +23,7 @@ __pycache__/
 # Ignore pytest cache directory
 .pytest_cache/
 
-# Ignore local SQLite database files
+# Ignore SQLite and local database files
 *.sqlite3
 *.db
 
@@ -37,18 +39,14 @@ pip-wheel-metadata/
 *.swp
 *.swo
 
-# Ignore specific configuration files
+# Ignore Alembic files and directories
+alembic/
 alembic.ini
-pytest.ini
-
-# Ignore sensitive secrets
-.env
-*.key
-*.pem
-
-# Ignore Alembic cache and compiled files
 alembic/versions/*.pyc
-alembic/versions/*__pycache__/
+alembic/versions/__pycache__/
+
+# Ignore pytest configuration files
+pytest.ini
 
 # Ignore system-specific cache files
 .DS_Store
@@ -63,4 +61,3 @@ coverage.xml
 htmlcov/
 test_output/
 test_reports/
-alembic/
