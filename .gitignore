@@ -39,7 +39,7 @@ pip-wheel-metadata/
 *.swp
 *.swo
 
-# Ignore Alembic files and directories
+# Ignore the Alembic directory completely
 alembic/
 alembic.ini
 alembic/versions/*.pyc
