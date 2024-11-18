@@ -1,6 +1,6 @@
 # Parcial 2: Microservicios
 
-## Mariana Osorio / David Mantilla / Jhovanny Quiceno
+    David Mantilla 
 
 Este parcial engloba el desarrollo de una api parala realización de pagos de arriendo, usando Python, PostgreSQL, Docker.
 
